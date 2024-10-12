@@ -3,41 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown.Blog - Project Overview</title>
+    <title>Markdown.Blog - Your Universal Blogging Solution</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
+            color: #333;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px 0;
             text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         header img {
-            height: 50px; /* 调整 logo 大小 */
-            margin-right: 10px; /* logo 和文字之间的间距 */
+            height: 60px;
+            margin-right: 15px;
+            vertical-align: middle;
         }
         header h1 {
-            color: #f4f4f4;
+            display: inline-block;
             margin: 0;
+            vertical-align: middle;
+            font-size: 2.5em;
         }
         .container {
             width: 80%;
-            margin: auto;
+            max-width: 1200px;
+            margin: 30px auto;
             overflow: hidden;
-            padding: 20px;
+            padding: 30px;
             background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
         h2 {
-            color: #333;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li:before {
+            content: "•";
+            color: #3498db;
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2980b9;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #2980b9;
         }
     </style>
 </head>
@@ -47,19 +91,31 @@
         <h1>Markdown.Blog</h1>
     </header>
     <div class="container">
-        <h2>Project Goals</h2>
-        <p>The goal of this project is to establish a universal Markdown-based blogging solution, which can also be extended to general content management. It focuses on summarizing rules, methods, and best practices for reusability.</p>
+        <h2>Revolutionize Your Blogging Experience</h2>
+        <p>Welcome to Markdown.Blog, your go-to solution for a seamless, efficient, and powerful blogging experience. Our project aims to establish a universal Markdown-based blogging platform that can be extended to general content management, focusing on reusability and best practices.</p>
 
-        <h2>Features</h2>
-        <p>In the initial phase, the project aims to develop reusable components for editing and displaying articles using Markdown code, reducing the need for repetitive code development. Key areas of focus include:</p>
+        <h2>Why Choose Markdown.Blog?</h2>
         <ul>
-            <li>Content Editing</li>
-            <li>Tag Management</li>
-            <li>Category Management</li>
-            <li>Image Management and Utilization</li>
-            <li>Integration with External Links and Specific Service Providers (e.g., YouTube for videos, social media embeds)</li>
+            <li>Simplicity: Write your content in Markdown, a simple and intuitive markup language.</li>
+            <li>Flexibility: Easily extend and customize your blog to fit your unique needs.</li>
+            <li>Efficiency: Reduce repetitive code development with our reusable components.</li>
+            <li>Compatibility: Seamlessly integrate with various platforms and service providers.</li>
         </ul>
-        <p>For more information, visit our <a href="https://github.com/markdown-blog" target="_blank">GitHub project page</a>.</p>
+
+        <h2>Key Features</h2>
+        <p>Our initial phase focuses on developing these essential components:</p>
+        <ul>
+            <li>Intuitive Content Editing: Write and format your posts with ease using Markdown.</li>
+            <li>Smart Tag Management: Organize and categorize your content efficiently.</li>
+            <li>Dynamic Category Management: Create a logical structure for your blog.</li>
+            <li>Advanced Image Management: Handle images with built-in optimization and gallery features.</li>
+            <li>Seamless External Integrations: Easily embed content from YouTube, social media, and more.</li>
+        </ul>
+
+        <h2>Join Our Community</h2>
+        <p>Markdown.Blog is an open-source project, and we welcome contributions from developers around the world. Whether you're a seasoned programmer or just starting out, there's a place for you in our community.</p>
+
+        <a href="https://github.com/markdown-blog" target="_blank" class="cta-button">Explore Our GitHub</a>
     </div>
 </body>
 </html>
