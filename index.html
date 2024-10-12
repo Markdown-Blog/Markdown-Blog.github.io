@@ -17,6 +17,17 @@
             color: #fff;
             padding: 10px 0;
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            height: 50px; /* 调整 logo 大小 */
+            margin-right: 10px; /* logo 和文字之间的间距 */
+        }
+        header h1 {
+            color: #f4f4f4;
+            margin: 0;
         }
         .container {
             width: 80%;
@@ -25,13 +36,14 @@
             padding: 20px;
             background-color: #fff;
         }
-        h1, h2 {
+        h2 {
             color: #333;
         }
     </style>
 </head>
 <body>
     <header>
+        <img src="@logo_128x128.png" alt="Markdown.Blog Logo">
         <h1>Markdown.Blog</h1>
     </header>
     <div class="container">
